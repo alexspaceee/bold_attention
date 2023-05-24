@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Uppercase All Text",
+    "version": "1.0",
+    "description": "Turns all text on a webpage to uppercase.",
+    "permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
